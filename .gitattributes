@@ -1,0 +1,4 @@
+# Usa LF para todos los archivos de texto
+* text=auto eol=lf
+
+# Mantén CRLF solo para archivos específicos de Windows si es necesario
