@@ -1,0 +1,7 @@
+# Archivos de entorno y secretos
+.env
+.env.*
+aws-lambda-tools-defaults.json
+
+# Archivos y carpetas de Visual Studio
+.vs/

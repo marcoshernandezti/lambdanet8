@@ -1,0 +1,19 @@
+
+service: lambda-region-comuna-net8
+
+provider:
+  name: aws
+  runtime: dotnet8
+  region: us-east-1
+  environment:
+    API_KEY: ${env:API_KEY}
+    DYNAMO_TABLE_REGIONES: Regiones
+    DYNAMO_TABLE_COMUNAS: Comunas
+
+functions:
+  api:
+    handler: LambdaRegionComunaNet8::LambdaRegionComunaNet8.LambdaEntryPoint::FunctionHandlerAsync
+    events:
+      - httpApi:
+          path: /{proxy+}
+          method: ANY
