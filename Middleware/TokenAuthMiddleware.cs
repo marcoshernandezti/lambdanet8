@@ -10,7 +10,9 @@
         {
             var token = Environment.GetEnvironmentVariable("API_KEY") ?? "supersecreto123";
 
-            if (!context.Request.Headers.TryGetValue("X-Api-Key", out var headerToken) || headerToken != token)
+            if (string.IsNullOrEmpty(token) ||
+                !context.Request.Headers.TryGetValue("X-Api-Key", out var headerToken) ||
+                headerToken != token)
             {
                 context.Response.StatusCode = 401;
                 await context.Response.WriteAsync("Unauthorized: Invalid Token");

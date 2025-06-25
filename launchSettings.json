@@ -3,12 +3,7 @@
     "LambdaRegionComunaNet8": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
-      "environmentVariables": {
-        "API_KEY": "supersecreto123",
-        "DYNAMO_TABLE_REGIONES": "Regiones",
-        "DYNAMO_TABLE_COMUNAS": "Comunas"
-      }
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
     }
   }
 }
