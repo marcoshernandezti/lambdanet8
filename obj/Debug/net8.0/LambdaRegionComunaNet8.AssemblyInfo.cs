@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LambdaRegionComunaNet8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65080b466a7c8738cca7436ae233000485004955")]
 [assembly: System.Reflection.AssemblyProductAttribute("LambdaRegionComunaNet8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LambdaRegionComunaNet8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

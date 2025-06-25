@@ -45,3 +45,4 @@ C:\Users\marco\OneDrive\proyect\LambdaRegionComunaNet8\obj\Debug\net8.0\refint\L
 C:\Users\marco\OneDrive\proyect\LambdaRegionComunaNet8\obj\Debug\net8.0\LambdaRegionComunaNet8.pdb
 C:\Users\marco\OneDrive\proyect\LambdaRegionComunaNet8\obj\Debug\net8.0\LambdaRegionComunaNet8.genruntimeconfig.cache
 C:\Users\marco\OneDrive\proyect\LambdaRegionComunaNet8\obj\Debug\net8.0\ref\LambdaRegionComunaNet8.dll
+C:\Users\marco\OneDrive\proyect\LambdaRegionComunaNet8\obj\Debug\net8.0\LambdaRegionComunaNet8.sourcelink.json
