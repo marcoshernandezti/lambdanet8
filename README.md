@@ -35,9 +35,13 @@ Permite consultar de manera eficiente y centralizada las regiones y comunas de C
 
 ## 🏗️ Estructura del proyecto
 
-- **/src**: Código fuente principal.
-- **/deploy**: Archivos YAML para despliegue automatizado.
-- **/docs**: Documentación adicional y ejemplos de uso.
+- **Controllers/**: Controladores que exponen los endpoints de la API.
+- **Models/**: Clases que representan las tablas de DynamoDB, con atributos para el mapeo directo.
+- **Services/**: Servicios encargados de la lógica de negocio y la interacción con AWS Lambda y DynamoDB.
+- **Middleware/**: Componentes de middleware, como la autenticación por token.
+- **LambdaRegionComunaNet8.csproj**: Archivo de proyecto principal de .NET 8.
+- **README.md**: Documentación principal del proyecto.
+- **Archivos YAML**: Configuración para CI/CD y despliegue continuo.
 
 ---
 
